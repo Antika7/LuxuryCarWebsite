@@ -54,6 +54,14 @@
             width: 100%;
         }
 
+        div.namehead{
+            color: white;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            padding: 40px;
+            font-size: xx-large;
+            letter-spacing: 5px;
+        }
 
         div.div1{
             width: 1500px;
@@ -108,6 +116,20 @@
             
         }
 
+        div>button{
+            background-color: gray;
+            color: white;
+            width: 100px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 18px;
+            letter-spacing: 4px;
+            border-color:brown;
+        }
+
+        div>button:hover {
+            box-shadow: 0 12px 16px 0 white, 0 17px 50px 0 white;
+        }
+
         nav{
             display: flex;
         }
@@ -146,6 +168,19 @@
             'GRAD' 0,
             'opsz' 48px;
         }
+
+        div.news{
+            background-color: #5A5A5A;
+            color: white;
+            opacity: 60%;
+            padding: 30px;
+            text-align: center;
+        }
+
+        div>h2{
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 6px;
+        }
 </style>
 </head>
 
@@ -172,16 +207,26 @@
 <div id="main">
 
     
-    <div class="namehead">
-        AUSTURO
-        <br>
-        Your one stop destination on everything luxury cars
-    </div>
+    
     
     <div class="div1" id="firstdiv">
         <p>INTRODUCING THE BEAST</p>
     </div>
 
+    <div class="namehead">
+        ALTURO
+        <br><br>
+        <p style="color: grey; font-size: medium">Your one stop destination on everything luxury cars</p>
+    </div>
+
+    <div class="news">
+        <h2>Luxury vehicle sales in India grew in strong double-digits in first half of 2022</h2>
+        <br>
+        Industry estimates around 17,000 luxury vehicles were sold in the country between January-June 2022, 
+        which is an increase of 55% over 11,000 units sold in the year-ago period. Senior industry executives 
+        said given the demand companies are working hard to ease supply constraints, scale up production in the upcoming festive season.
+    </div>
+    <br>
     <div class="div11">
         <a class="div11text" href="https://www.lamborghini.com/en-en/models/huracan/huracan-evo" target="_blank">SEE MORE</a>
     </div>
@@ -229,9 +274,17 @@
     <div class="div3" id="Countdown">
         <p style="font-family: 'Roboto', sans-serif; letter-spacing:5px;">Launch of the Aston Martin DBS Superleggera</p>
         <p id="demo"></p>
-        <img src="https://media.zigcdn.com/media/model/2019/Apr/rear-3-4-left-1430224599_930x620.jpg" width="1400px">
+        <img src="https://media.zigcdn.com/media/model/2019/Apr/rear-3-4-left-1430224599_930x620.jpg" width="1400px">\
+        <br>
+        <button onclick="mypopupFunction()">See it!</button>
     </div>
-
+    <script>
+        function mypopupFunction() {
+          alert("Please wait till launch date");
+        }
+        </script>
+        
+        <br>
     <div class="divfooter" id="contact">
         <br>
             <span class="material-symbols-outlined">
@@ -244,7 +297,7 @@
             <span class="material-symbols-outlined".>
                 mail
                 </span> &nbsp;&nbsp;
-                <a  style="text-decoration: none; color: white;" href="mailto:cars@awesome.com">lesgobois@gmail.com</a>
+                <a  style="text-decoration: none; color: white;" href="mailto:cars@awesome.com">awesome@cars.com</a>
 
             </br></br>
 
