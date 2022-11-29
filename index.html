@@ -175,11 +175,18 @@
             opacity: 60%;
             padding: 30px;
             text-align: center;
+            margin: 0;
         }
 
         div>h2{
-            font-family: 'Oswald', sans-serif;
-            letter-spacing: 6px;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: 10px;
+        }
+
+        div>a{
+            color: white;
+            /* box-shadow: 0 12px 16px 0 white; */
+            text-decoration: none;
         }
 </style>
 </head>
@@ -191,6 +198,7 @@
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="#firstdiv">Home</a>
+    <a href="#news">Updates</a>
     <a href="#tesla">Tesla</a>
     <a href="#demo">New Launch</a>
     <a href="#contact">Contact</a>
@@ -219,12 +227,22 @@
         <p style="color: grey; font-size: medium">Your one stop destination on everything luxury cars</p>
     </div>
 
-    <div class="news">
+    <div class="news" id="news">
         <h2>Luxury vehicle sales in India grew in strong double-digits in first half of 2022</h2>
         <br>
         Industry estimates around 17,000 luxury vehicles were sold in the country between January-June 2022, 
         which is an increase of 55% over 11,000 units sold in the year-ago period. Senior industry executives 
         said given the demand companies are working hard to ease supply constraints, scale up production in the upcoming festive season.
+        <br><br>
+        <a href="https://auto.economictimes.indiatimes.com/news/passenger-vehicle/cars/luxury-vehicle-sales-in-india-grew-in-strong-double-digits-in-first-half-of-2022/92811468" target="_blank"> Read more....</a>
+    </div>
+    <br>
+    <div class="news">
+        <h2>BMW drives in 2 Series Gran Coupe with petrol powertrain at Rs 40.9 lakh</h2>
+        <br>
+        The car comes with two-litre four-cylinder petrol engine and accelerates from 0 -100 km/hr in 7.1 seconds.
+        <br><br>
+        <a href="https://auto.economictimes.indiatimes.com/news/passenger-vehicle/cars/bmw-drives-in-2-series-gran-coupe-with-petrol-powertrain-at-rs-40-9-lakh/80232025" target="_blank"> Read more....</a>
     </div>
     <br>
     <div class="div11">
@@ -234,6 +252,7 @@
     
     <div class="div2" id="tesla">
         <!-- <img src="https://tesla-cdn.thron.com/delivery/public/image/tesla/538ac149-d103-4834-9d38-641d8ae447ef/bvlatuR/std/4096x2560/Homepage-Model-S-Desktop-LHD" width="1600px"> -->
+       <h2 style="letter-spacing: 9px; font-size: 40px;">TESLA</h2>
         <!-- Slideshow container -->
         <div class="slideshow-container">
 
